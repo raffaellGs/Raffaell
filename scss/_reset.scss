@@ -1,0 +1,45 @@
+@import "../scss/breakpoints.scss";
+
+// ==== VÁRIAVES
+$shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+$textColor: rgba(51, 51, 51, 0.75);
+$btnColor: #0d1a59;
+$bodyColor: #F5F5F5;
+$h1Color: #142785;
+$pColor-bar:#404040;
+$font-size: 1.2rem;
+$border-radius: 8px;
+$fontFamilyP: 'Lato', sans-serif;
+
+// ==== Estilização DO BODY
+
+body{
+    background-color: $bodyColor;
+    height: 70vh;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: .6rem;
+    
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $pColor-bar;
+    border-radius: 20px;
+}
+
+h1.GH1{
+    color: $h1Color;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
